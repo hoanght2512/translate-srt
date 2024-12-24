@@ -1,0 +1,15 @@
+{
+  "name": "translate-srt",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "hoanght",
+  "license": "ISC",
+  "description": "Translate SRT file to Vietnamese",
+  "dependencies": {
+    "@iamtraction/google-translate": "github:iamtraction/google-translate"
+  }
+}
