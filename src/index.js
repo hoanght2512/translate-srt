@@ -9,7 +9,6 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 const translateLine = async (line) => {
   try {
     const res = await translate(line, { from: 'en', to: 'vi' })
-    // await delay(100) // Đợi 100ms trước khi trả về kết quả
     return res.text
   } catch (error) {
     await delay(5000) // Đợi 5s trước khi thử lại
